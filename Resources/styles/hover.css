@@ -1,0 +1,105 @@
+
+/* on hover of any element */
+.container .hover{
+    cursor: pointer;
+    color: var(---fade);
+}
+
+.container .hover:hover{
+    color: var(---dark);
+}
+
+.container .hover:active{
+    background-color: var(---white);
+    color: var(---white);
+}
+
+.container .active{
+    color: var(---dark);
+    font-weight: bold;
+}
+
+/* hover on image in nav bar */
+.container .image .to-square:hover{
+    transition: all 1s ease-in-out;
+    border-radius: 10px;
+    transform: scale(0.9);
+}
+
+/* hover on image - zoom in */
+.container .card-photo.zoom-in:hover img{
+    transform: scale(1.5);
+}
+
+/* hover on image - zoom out */
+.container .card-photo.zoom-out:hover img{
+    transform: scale(0.7);
+}
+
+/* hover with underline */
+.container .hover-underline{
+    border: 2px solid transparent;
+}
+
+.container .hover-underline:hover{
+    color: var(---dark);
+    border-bottom: 2px solid var(---fade);
+}
+
+/* hover to reveal text */
+.container .hover-reveal{
+    border-radius: 20px;
+    overflow: hidden;
+    width: 30px;
+    height: 30px;
+    /* border: 1px solid var(---gray); */
+}
+.container .hover-reveal .label{
+    /* display: none; */
+    opacity: 0;
+    transform: translateX(-100%);
+    transition: opacity 1s ease;
+    transition: transform 1s ease;
+}
+.container .hover-reveal:hover{
+    background-color: var(---hover);
+    color: var(---dark);
+    width: fit-content;
+}
+.container .hover-reveal:hover .label{
+    /* display: block; */
+    opacity: 1;
+    transform: translateX(0);
+}
+.container .hover-reveal:active{
+    color: var(---white);
+}
+
+/* items hover in social media icons*/
+.content .social.item:hover{
+    color: var(---dark);
+    transition: 0.4s ease;
+    background-size: 100% 100%;
+}
+
+/* small card */
+.contents .smallcard:hover{
+    color: var(---white);
+    background-size: 100% 100%;
+    transition: .5s ease;
+}
+
+/* project cards */
+.contents .projects .project-box:hover{
+    width: 550px;
+    transform: width 0.5s ease;
+}
+
+.contents .projects .project-box:hover img{
+    width: 200px;
+    transition: width 0.5s ease;
+}
+
+.contents .projects .project-box:hover .project-info{
+    display: block;
+}

@@ -1,0 +1,701 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Resources/styles/index.css">
+    <link rel="stylesheet" href="Resources/styles/hover.css">
+    <link rel="stylesheet" href="Resources/styles/animation.css">
+    <link rel="stylesheet" href="Resources/styles/media.css">
+    <script src="https://kit.fontawesome.com/9515269a08.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="Resources/scripts/index.js"></script>
+    <script src="Resources/scripts/jquery.js"></script>
+    <title>Christian V.</title>
+</head>
+<body>
+    <div class="container">
+        <div class="side nav" id="page-nav">
+            <div class="nav-container">
+                <div class="user-image image">
+                    <img class="to-square" src="https://i.pinimg.com/474x/76/64/c0/7664c074c5280db80cf78552c347c229.jpg" alt="user-image">
+                </div>
+                <div class="nav-items">
+                    <div class="nav-item hover active" id="about_tab">
+                        <img class="icon" src="https://i.pinimg.com/474x/76/64/c0/7664c074c5280db80cf78552c347c229.jpg" alt="">
+                        <p>ABOUT ME</p>
+                    </div>
+                    <div class="nav-item hover" id="skill_tab">
+                        <i class="fa-solid fa-computer icon"></i>
+                        <p>SKILLS and SERVICES</p>
+                    </div>
+                    <div class="nav-item hover" id="projects_tab">
+                        <i class="fa-solid fa-puzzle-piece icon"></i>
+                        <p>PROJECTS</p>
+                    </div>
+                    <div class="nav-item hover" id="experience_tab">
+                        <i class="fa-solid fa-trophy icon"></i>
+                        <p>EXPERIENCE</p>
+                    </div>
+                    <div class="nav-item hover" id="education_tab">
+                        <i class="fa-solid fa-user-graduate icon"></i>
+                        <p>EDUCATION</p>
+                    </div>
+                    <div class="nav-item hover" id="blog_tab">
+                        <i class="fa-solid fa-square icon"></i>
+                        <p>BLOG</p>
+                    </div>
+                    <div class="nav-item hover" id="contacts_tab">
+                        <i class="fa-solid fa-address-card icon"></i>
+                        <p>CONTACTS</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="side contents" id="all_content">
+            
+            <!-- intro message -->
+            <!-- view-intro -->
+            <div class="content view-intro intro" id="intro">
+                <div class="intro-msg">
+                    <p>Hello World!</p>
+                </div>
+            </div>
+
+            <!-- about -->
+            <!-- active: flexed-box-center -->
+            <div class="content" id="about">
+
+                <!-- large box -->
+                <div class="large-box border-boxed">
+                    <div class="social flexed-box-center">
+                        <div class="social item flexed-box-center roundborder hover">
+                            <i class="fa-brands fa-facebook flexed-box-center"></i>
+                            <p class="label">Facebook</p>
+                        </div>
+                        <div class="social item flexed-box-center roundborder hover">
+                            <i class="fa-brands fa-instagram flexed-box-center"></i>
+                            <p class="label">Instagram</p>
+                        </div>
+                        <div class="social item flexed-box-center roundborder hover">
+                            <i class="fa-brands fa-x-twitter flexed-box-center"></i>
+                            <p class="label">X / Twitter</p>
+                        </div>
+                        <div class="social item flexed-box-center roundborder hover ">
+                            <i class="fa-brands fa-threads flexed-box-center"></i>
+                            <p class="label">Threads</p>
+                        </div>
+                    </div>
+                    <div class="greetings flexed-box-space_between">
+
+                        <!-- greetings content -->
+                        <div class="side flexed-box-center greetings-content">
+                            <div class="block">
+                                <div class="block big-heading">
+                                    <h1>Hello,</h1>
+                                    <h2 class="subtext">Let's Create Amazing Things Together!</h2>
+                                </div>
+                                <div class="block changing-text">
+                                    <h4>I'm a <span id="imWhat">Digital Artist</span></h3>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- quick info -->
+                        <div class="side left flexed-box-center">
+                            <div class="card">
+                                <div class="card-photo zoom-in flexed-box-center">
+                                    <img src="https://i.pinimg.com/474x/43/0c/53/430c53ef3a97464b81b24b356ed39d32.jpg" alt="">
+                                </div>
+                                <div class="scroll-y">
+                                    <div class="item-info flexed-box-start">
+                                        <i class="fa-solid fa-user-tie flexed-box-center"></i>
+                                        <p>Christian Vaydal</p>
+                                    </div>
+                                    <div class="item-info flexed-box-start">
+                                        <i class="fa-solid fa-user-graduate flexed-box-center"></i>
+                                        <p>BS in Information Technology</p>
+                                    </div>
+                                    <div class="item-info flexed-box-start">
+                                        <i class="fa-solid fa-school flexed-box-center"></i>
+                                        <p>St. Bernadette College of Alabang</p>
+                                    </div>
+                                    <div class="item-info flexed-box-start">
+                                        <i class="fa-solid fa-envelope flexed-box-center"></i>
+                                        <p>christianvaydal112@gmail.com</p>
+                                    </div>
+                                    <div class="item-info flexed-box-start">
+                                        <i class="fa-solid fa-phone flexed-box-center"></i>
+                                        <p>+63 960 512 5845</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- skills -->
+            <div class="content" id="skills">
+                <div class="large-box border-boxed">
+
+                    <!-- Services -->
+                    <div class="page-header">
+                        <div class="content-header">
+                            <h1>My Best Services</h1>
+                        </div>
+                        <div class="sub-header">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo totam nesciunt reiciendis mollitia laborum consequatur facilis, ducimus repellat, molestiae quos architecto nulla! Est facere architecto ab cumque provident, voluptatum quo!</p>
+                        </div>
+                    </div>
+
+                    <div class="services flexed-box-center">
+                        <div class="smallcard shadow1">
+                            <div class="icon">
+                                <i class="fa-solid fa-palette"></i>
+                            </div>
+                            <div class="card-content">
+                                <h4>UI/UX Design</h4>
+                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                            </div>
+                        </div>
+
+                        <div class="smallcard shadow1">
+                            <div class="icon">
+                                <i class="fa-solid fa-palette"></i>
+                            </div>
+                            <div class="card-content">
+                                <h4>Web Design</h4>
+                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                            </div>
+                        </div>
+
+                        <div class="smallcard shadow1">
+                            <div class="icon">
+                                <i class="fa-solid fa-display"></i>
+                            </div>
+                            <div class="card-content">
+                                <h4>Web Development</h4>
+                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                            </div>
+                        </div>
+
+                        <div class="smallcard shadow1">
+                            <div class="icon">
+                                <i class="fa-solid fa-palette"></i>
+                            </div>
+                            <div class="card-content">
+                                <h4>Software Design</h4>
+                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                            </div>
+                        </div>
+
+                        <div class="smallcard shadow1">
+                            <div class="icon">
+                                <i class="fa-solid fa-display"></i>
+                            </div>
+                            <div class="card-content">
+                                <h4>Software Development</h4>
+                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                            </div>
+                        </div>
+
+                        <div class="smallcard shadow1">
+                            <div class="icon">
+                                <i class="fa-solid fa-gamepad"></i>
+                            </div>
+                            <div class="card-content">
+                                <h4>Game Development</h4>
+                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                            </div>
+                        </div>
+
+                        <div class="smallcard shadow1">
+                            <div class="icon">
+                                <i class="fa-solid fa-computer"></i>
+                            </div>
+                            <div class="card-content">
+                                <h4>System Development</h4>
+                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                            </div>
+                        </div>
+
+                        <div class="smallcard shadow1">
+                            <div class="icon">
+                                <i class="fa-solid fa-pen"></i>
+                            </div>
+                            <div class="card-content">
+                                <h4>Graphic Design</h4>
+                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Skills -->
+                    <div class="page-header">
+                        <div class="content-header">
+                            <h1>My Skills</h1>
+                        </div>
+                        <div class="sub-header">
+                            <p>Here are some of my skills that help you pick me.</p>
+                        </div>
+                    </div>
+
+                    <div class="categories">
+                        
+                        <!-- Programming Languages -->
+                        <div class="category shadow1 border-boxed dark-bg">
+                            <div class="icon border-boxed">
+                                <i class="fa-solid fa-code"></i>
+                            </div>
+                            <div class="cat-content border-boxed">
+                                <h3>Programming Languages</h3>
+                                <div class="cat-items">
+                                    <div class="item">
+                                        <i class="fa-solid fa-arrow-right flexed-box-center"></i>
+                                        C/C++
+                                    </div>
+                                    <div class="item">
+                                        <i class="fa-solid fa-arrow-right flexed-box-center"></i>
+                                        Python
+                                    </div>
+                                    <div class="item">
+                                        <i class="fa-solid fa-arrow-right flexed-box-center"></i>
+                                        C#
+                                    </div>
+                                    <div class="item">
+                                        <i class="fa-solid fa-arrow-right flexed-box-center"></i>
+                                        Java
+                                    </div>
+                                    <div class="item">
+                                        <i class="fa-solid fa-arrow-right flexed-box-center"></i>
+                                        HMTL/CSS/JavaScript
+                                    </div>
+                                    <div class="item">
+                                        <i class="fa-solid fa-arrow-right flexed-box-center"></i>
+                                        PHP
+                                    </div>
+                                    <div class="item">
+                                        <i class="fa-solid fa-arrow-right flexed-box-center"></i>
+                                        And more.
+                                    </div>
+                                </div>
+                                <div class="rate">
+                                    <div class="circle s"></div>
+                                    <div class="circle s"></div>
+                                    <div class="circle s"></div>
+                                    <div class="circle s"></div>
+                                    <div class="circle s"></div>
+                                </div>
+                                <a href="#">View more</a>
+                            </div>
+                        </div>
+
+                        <!-- Web Design -->
+                        <div class="category shadow1 border-boxed">
+                            <div class="icon border-boxed">
+                                <i class="fa-solid fa-display"></i>
+                            </div>
+                            <div class="cat-content border-boxed">
+                                <h3>Web Design</h3>
+                                <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum iusto provident asperiores nulla quas excepturi fuga alias hic aperiam itaque accusamus, velit exercitationem, beatae qui nesciunt consectetur sit est rem?</p>
+                                <div class="rate">
+                                    <div class="circle s"></div>
+                                    <div class="circle s"></div>
+                                    <div class="circle s"></div>
+                                    <div class="circle"></div>
+                                    <div class="circle"></div>
+                                </div>
+                                <a href="#">View more</a>
+                            </div>
+                        </div>
+
+                        <!-- Web Development -->
+                        <div class="category shadow1 border-boxed">
+                            <div class="icon border-boxed">
+                                <i class="fa-solid fa-network-wired"></i>
+                            </div>
+                            <div class="cat-content border-boxed">
+                                <h3>Web Development</h3>
+                                <div class="cat-items">
+                                    <div class="item">
+                                        <i class="fa-solid fa-arrow-right flexed-box-center"></i>
+                                        PHP
+                                    </div>
+                                    <div class="item">
+                                        <i class="fa-solid fa-arrow-right flexed-box-center"></i>
+                                        React
+                                    </div>
+                                    <div class="item">
+                                        <i class="fa-solid fa-arrow-right flexed-box-center"></i>
+                                        jQuery
+                                    </div>
+                                    <div class="item">
+                                        <i class="fa-solid fa-arrow-right flexed-box-center"></i>
+                                        Bootstrap
+                                    </div>
+                                    <div class="item">
+                                        <i class="fa-solid fa-arrow-right flexed-box-center"></i>
+                                        And more.
+                                    </div>
+                                </div>
+                                <div class="rate">
+                                    <div class="circle s"></div>
+                                    <div class="circle s"></div>
+                                    <div class="circle s"></div>
+                                    <div class="circle s"></div>
+                                    <div class="circle"></div>
+                                </div>
+                                <a href="#">View more</a>
+                            </div>
+                        </div>
+
+                        <!-- Game Development -->
+                        <div class="category shadow1 border-boxed">
+                            <div class="icon border-boxed">
+                                <i class="fa-solid fa-gamepad"></i>
+                            </div>
+                            <div class="cat-content border-boxed">
+                                <h3>Game Development</h3>
+                                <div class="cat-items">
+                                    <div class="item">
+                                        <i class="fa-solid fa-arrow-right flexed-box-center"></i>
+                                        Unity
+                                    </div>
+                                    <div class="item">
+                                        <i class="fa-solid fa-arrow-right flexed-box-center"></i>
+                                        Godot
+                                    </div>
+                                    <div class="item">
+                                        <i class="fa-solid fa-arrow-right flexed-box-center"></i>
+                                        Python Pygame
+                                    </div>
+                                    <div class="item">
+                                        <i class="fa-solid fa-arrow-right flexed-box-center"></i>
+                                        Lua Love2D
+                                    </div>
+                                    <div class="item">
+                                        <i class="fa-solid fa-arrow-right flexed-box-center"></i>
+                                        And more.
+                                    </div>
+                                </div>
+                                <div class="rate">
+                                    <div class="circle s"></div>
+                                    <div class="circle s"></div>
+                                    <div class="circle s"></div>
+                                    <div class="circle s"></div>
+                                    <div class="circle"></div>
+                                </div>
+                                <a href="#">View more</a>
+                            </div>
+                        </div>
+
+                        <!-- Software Development -->
+                        <div class="category shadow1 border-boxed">
+                            <div class="icon border-boxed">
+                                <i class="fa-solid fa-mobile-screen-button"></i>
+                            </div>
+                            <div class="cat-content border-boxed">
+                                <h3>Software Development</h3>
+                                <p class="paragraph">Xamarin, React.js and more.</p>
+                                <div class="rate">
+                                    <div class="circle s"></div>
+                                    <div class="circle s"></div>
+                                    <div class="circle s"></div>
+                                    <div class="circle"></div>
+                                    <div class="circle"></div>
+                                </div>
+                                <a href="#">View more</a>
+                            </div>
+                        </div>
+
+                        <!-- Design Softwares -->
+                        <div class="category shadow1 border-boxed">
+                            <div class="icon border-boxed">
+                                <i class="fa-solid fa-mobile-screen-button"></i>
+                            </div>
+                            <div class="cat-content border-boxed">
+                                <h3>Design Softwares</h3>
+                                <div class="cat-items">
+                                    <div class="item">
+                                        <i class="fa-solid fa-arrow-right flexed-box-center"></i>
+                                        Adobe Photoshop
+                                    </div>
+                                    <div class="item">
+                                        <i class="fa-solid fa-arrow-right flexed-box-center"></i>
+                                        Blender
+                                    </div>
+                                    <div class="item">
+                                        <i class="fa-solid fa-arrow-right flexed-box-center"></i>
+                                        Figma
+                                    </div>
+                                    <div class="item">
+                                        <i class="fa-solid fa-arrow-right flexed-box-center"></i>
+                                        And more.
+                                    </div>
+                                </div>
+                                <div class="rate">
+                                    <div class="circle s"></div>
+                                    <div class="circle s"></div>
+                                    <div class="circle s"></div>
+                                    <div class="circle"></div>
+                                    <div class="circle"></div>
+                                </div>
+                                <a href="#">View more</a>
+                            </div>
+                        </div>
+
+                        <!-- Database Management -->
+                        <div class="category shadow1 border-boxed">
+                            <div class="icon border-boxed">
+                                <i class="fa-solid fa-database"></i>
+                            </div>
+                            <div class="cat-content border-boxed">
+                                <h3>Database Management</h3>
+                                <p class="paragraph">MySql, XAMPP, and FireBase</p>
+                                <div class="rate">
+                                    <div class="circle s"></div>
+                                    <div class="circle s"></div>
+                                    <div class="circle s"></div>
+                                    <div class="circle"></div>
+                                    <div class="circle"></div>
+                                </div>
+                                <a href="#">View more</a>
+                            </div>
+                        </div>
+
+                        <!-- Frameworks and Libraries -->
+                        <div class="category shadow1 border-boxed">
+                            <div class="icon border-boxed">
+                                <i class="fa-solid fa-wrench"></i>
+                            </div>
+                            <div class="cat-content border-boxed">
+                                <h3>Frameworks and Libraries</h3>
+                                <div class="cat-items">
+                                    <div class="item">
+                                        <i class="fa-solid fa-arrow-right flexed-box-center"></i>
+                                        Laravel
+                                    </div>
+                                    <div class="item">
+                                        <i class="fa-solid fa-arrow-right flexed-box-center"></i>
+                                        NodeJS
+                                    </div>
+                                    <div class="item">
+                                        <i class="fa-solid fa-arrow-right flexed-box-center"></i>
+                                        Python Django
+                                    </div>
+                                    <div class="item">
+                                        <i class="fa-solid fa-arrow-right flexed-box-center"></i>
+                                        Python Flask
+                                    </div>
+                                    <div class="item">
+                                        <i class="fa-solid fa-arrow-right flexed-box-center"></i>
+                                        Express JS
+                                    </div>
+                                    <div class="item">
+                                        <i class="fa-solid fa-arrow-right flexed-box-center"></i>
+                                        And more.
+                                    </div>
+                                </div>
+                                <div class="rate">
+                                    <div class="circle s"></div>
+                                    <div class="circle s"></div>
+                                    <div class="circle s"></div>
+                                    <div class="circle"></div>
+                                    <div class="circle"></div>
+                                </div>
+                                <a href="#">View more</a>
+                            </div>
+                        </div>
+
+                        <!-- Retro Programming -->
+                        <div class="category shadow1 border-boxed dark-bg">
+                            <div class="icon border-boxed">
+                                <i class="fa-solid fa-terminal"></i>
+                            </div>
+                            <div class="cat-content border-boxed">
+                                <h3>Retro Programming</h3>
+                                <div class="cat-items">
+                                    <div class="item">
+                                        <i class="fa-solid fa-arrow-right flexed-box-center"></i>
+                                        Assembly
+                                    </div>
+                                    <div class="item">
+                                        <i class="fa-solid fa-arrow-right flexed-box-center"></i>
+                                        Fortran
+                                    </div>
+                                    <div class="item">
+                                        <i class="fa-solid fa-arrow-right flexed-box-center"></i>
+                                        Cobol
+                                    </div>
+                                    <div class="item">
+                                        <i class="fa-solid fa-arrow-right flexed-box-center"></i>
+                                        BASIC
+                                    </div>
+                                    <div class="item">
+                                        <i class="fa-solid fa-arrow-right flexed-box-center"></i>
+                                        And more.
+                                    </div>
+                                </div>
+                                <div class="rate">
+                                    <div class="circle s"></div>
+                                    <div class="circle s"></div>
+                                    <div class="circle s"></div>
+                                    <div class="circle s"></div>
+                                    <div class="circle s"></div>
+                                </div>
+                                <a href="#">View more</a>
+                            </div>
+                        </div>
+
+                        <!-- Soft Skills -->
+                        <div class="category shadow1 border-boxed fade-bg">
+                            <div class="icon border-boxed">
+                                <i class="fa-regular fa-circle-user"></i>
+                            </div>
+                            <div class="cat-content border-boxed">
+                                <h3>Soft Skills</h3>
+                                <div class="cat-items">
+                                    <div class="item">
+                                        <i class="fa-solid fa-check flexed-box-center"></i>
+                                        Problem-Solving
+                                    </div>
+                                    <div class="item">
+                                        <i class="fa-solid fa-check flexed-box-center"></i>
+                                        Team Collaboration
+                                    </div>
+                                    <div class="item">
+                                        <i class="fa-solid fa-check flexed-box-center"></i>
+                                        Time Management
+                                    </div>
+                                    <div class="item">
+                                        <i class="fa-solid fa-check flexed-box-center"></i>
+                                        Analytical Thinking
+                                    </div>
+                                    <div class="item">
+                                        <i class="fa-solid fa-check flexed-box-center"></i>
+                                        Creative and Innovation
+                                    </div>
+                                </div>
+                                <div class="rate">
+                                    <div class="circle s"></div>
+                                    <div class="circle s"></div>
+                                    <div class="circle s"></div>
+                                    <div class="circle s"></div>
+                                    <div class="circle s"></div>
+                                </div>
+                                <a href="#">View more</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- skills -->
+            <div class="content" id="projects">
+                <div class="large-box full border-boxed">
+
+                    <!-- header -->
+                    <div class="page-header">
+                        <div class="content-header">
+                            <h1>My Projects</h1>
+                        </div>
+                        <div class="sub-header">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore culpa voluptatum autem fugit deserunt illum beatae placeat omnis tenetur officiis quia unde sapiente, praesentium itaque amet atque temporibus assumenda repudiandae?</p>
+                        </div>
+                    </div>
+
+                    <div class="projects flexed-box-center border-boxed">
+                        <div class="project-box flexed-box-space_between">
+                            <img src="https://i.pinimg.com/originals/be/83/99/be8399dea45fe029701391e017e0c72f.gif" alt="">
+                            <div class="project-info">
+                                <h3>Name: <span class="value">Back In Time</span></h3>
+                                <p class="description">Type: <span class="value">Game</span></p>
+                                <p class="description">Description: <span class="value">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates accusantium nemo molestiae impedit hic eum recusandae animi, eaque ipsum quibusdam, eveniet aperiam accusamus similique odio iusto commodi assumenda non facere.</span></p>
+                                <div class="tech-use">
+                                    <div class="tech">
+                                        <p>Python3</p>
+                                    </div>
+                                    <div class="tech">
+                                        <p>PyGame</p>
+                                    </div>
+                                </div>
+                                <div class="tech-use">
+                                    <div class="tech">
+                                        <a href="https://github.com/christVayds/backInTime.git">GitHub</a>
+                                    </div>
+                                    <div class="tech">
+                                        <a href="#">See photos</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-box flexed-box-space_between">
+                            <img src="https://i.pinimg.com/736x/15/83/d7/1583d71ff0f91419951e452e860acdaa.jpg" alt="">
+                            <div class="project-info">
+                                <h3>Name: <span class="value">SBCA School Portal System</span></h3>
+                                <p class="description">Type: <span class="value">Web App</span></p>
+                                <p class="description">Description: <span class="value">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates accusantium nemo molestiae impedit hic eum recusandae animi, eaque ipsum quibusdam, eveniet aperiam accusamus similique odio iusto commodi assumenda non facere.</span></p>
+                                <div class="tech-use">
+                                    <div class="tech">
+                                        <p>PHP</p>
+                                    </div>
+                                    <div class="tech">
+                                        <p>jQuery</p>
+                                    </div>
+                                    <div class="tech">
+                                        <p>MySql</p>
+                                    </div>
+                                    <div class="tech">
+                                        <p>XAMPP</p>
+                                    </div>
+                                </div>
+                                <div class="tech-use">
+                                    <div class="tech">
+                                        <a href="https://github.com/christVayds/SBCA_PORTAL.git">GitHub</a>
+                                    </div>
+                                    <div class="tech">
+                                        <a href="#">See photos</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="projects flexed-box-center border-boxed">
+                        <div class="project-box flexed-box-space_between">
+                            <img src="https://i.pinimg.com/originals/1a/d0/11/1ad011529ccd9c2c515a609d8586bab9.gif" alt="">
+                            <div class="project-info">
+                                <h3>Name: <span class="value">Retro Games</span></h3>
+                                <p class="description">Type: <span class="value">Game</span></p>
+                                <p class="description">Description: <span class="value">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates accusantium nemo molestiae impedit hic eum recusandae animi, eaque ipsum quibusdam, eveniet aperiam accusamus similique odio iusto commodi assumenda non facere.</span></p>
+                                <div class="tech-use">
+                                    <div class="tech">
+                                        <p>Python3</p>
+                                    </div>
+                                    <div class="tech">
+                                        <p>C/C++</p>
+                                    </div>
+                                    <div class="tech">
+                                        <p>Java</p>
+                                    </div>
+                                </div>
+                                <div class="tech-use">
+                                    <div class="tech">
+                                        <a href="https://github.com/christVayds/white_snake.git">GitHub</a>
+                                    </div>
+                                    <div class="tech">
+                                        <a href="#">See photos</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-box flexed-box-space_between">
+                            <img src="https://i.pinimg.com/736x/b1/0a/f0/b10af030b735e07951e5a1715c265de5.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

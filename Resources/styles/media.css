@@ -1,0 +1,33 @@
+
+/* mobile */
+@media only screen and (max-width: 760px) {
+    
+    /* space in between - to block*/
+    .contents .greetings.flexed-box-space_between{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container .side{
+        width: 100%;
+    }
+
+    .contents .side{
+        width: 100%;
+        flex-grow: 0;
+    }
+
+    .contents .side.right,
+    .contents .side.left{
+        width: 100%;
+    }
+
+    .content .social.item p{
+        display: none;
+    }
+
+    /* remove desktop nav */
+    .container .nav{
+        display: none;
+    }
+}

@@ -1,0 +1,28 @@
+
+@keyframes typing{
+    from { width: 0; }
+    to { width: 100%; }
+}
+
+@keyframes blink-caret{
+    from, to { border-color: transparent; }
+    50% { border-color: var(---dark);}
+}
+
+@keyframes fill_hover1 {
+    from{
+        background-size: 0% 100%;
+    }
+    to{
+        background-size: 100% 100%;
+    }
+}
+
+@keyframes fill_hover2 {
+    from{
+        background-size: 100% 0%;
+    }
+    to{
+        background-size: 100% 100%;
+    }
+}
