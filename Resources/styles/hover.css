@@ -103,3 +103,8 @@
 .contents .projects .project-box:hover .project-info{
     display: block;
 }
+
+/* mobile menu icon */
+.contents .mobile-menu .menu:hover{
+    background-color: var(---hover);
+}
