@@ -15,8 +15,21 @@
 
     /* greetings for mobile */
     .contents .greetings .greetings-content{
-        border: 1px solid var(---line);
+        /* border: 1px solid var(---line); */
         height: 50vh;
+    }
+
+    .contents .projects{
+        flex-direction: column;
+    }
+
+    .contents .projects .project-box:hover{
+        width: 100%;
+        margin: 0;
+    }
+
+    .contents .projects .project-box:hover img{
+        display: none;
     }
 
     .container .side{
