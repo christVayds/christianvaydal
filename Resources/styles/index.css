@@ -316,7 +316,7 @@ body, html{
 /* PAGE HEADER DESIGN */
 .contents .page-header{
     /* border: 1px solid var(---fade); */
-    margin-bottom: 20px;
+    margin: 100px;
     text-align: center;
 }
 
@@ -337,11 +337,12 @@ body, html{
 }
 
 .contents .categories .category{
-    width: 250px;
+    width: 100%;
     min-height: 250px;
     border-radius: 10px;
     margin-bottom: 20px;
     break-inside: avoid;
+    transition: transform 0.5s ease;
 }
 
 .contents .categories .category .icon{
@@ -598,4 +599,31 @@ body, html{
     height: 50px;
     font-size: 2rem;
     color: var(---dark);
+}
+
+/* gallery */
+.contents .gallery{
+    /* border: 1px solid var(---line); */
+    min-height: 200px;
+}
+
+.contents .gallery .display-gallery{
+    /* border: 1px solid var(---red); */
+    width: fit-content;
+    margin: 0 auto;
+    padding: 10px;
+    columns: 3 300px;
+    column-gap: 10px;
+}
+
+.contents .gallery .display-gallery img{
+    /* border: 1px solid var(---fade); */
+    width: 100%;
+    /* height: auto; */
+    object-fit: cover;
+    break-inside: avoid;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    transition: transform 0.5s ease;
+    overflow: hidden;
 }
