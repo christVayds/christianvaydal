@@ -42,4 +42,24 @@ $(document).ready(function(){
         });
         this.classList.add('active');
     });
+
+    // click the mobile menu
+    $('.mobile-menu').click(function(){
+        document.getElementById('mobile-menu').classList.add('show');
+    });
+
+    $('#exit-menu').click(function(){
+        document.getElementById('mobile-menu').classList.remove('show');
+    });
+
+    $('.item-menu').click(function(){
+        clearTabs();
+        switchPage($(this).attr('value'));
+        document.getElementById('all_content').scrollTo({
+            top: 0,
+            bahavior: 'smooth'
+        });
+        document.getElementById('mobile-menu').classList.remove('show');
+        document.getElementById($(this).attr('value')).classList.add('active');
+    });
 });
