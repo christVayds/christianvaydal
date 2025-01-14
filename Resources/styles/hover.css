@@ -100,7 +100,7 @@
 /* project cards */
 .contents .projects .project-box:hover{
     width: 550px;
-    transform: width 0.5s ease;
+    transition: width 0.5s ease;
 }
 
 .contents .projects .project-box:hover img{
@@ -120,4 +120,13 @@
 .contents .popup .menus .menu-item:hover{
     background-color: var(---hover);
     color: var(---dark);
+}
+
+.contents .gallery .display-gallery img:hover{
+    transform: scale(0.95);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.contents .categories .category:hover{
+    transform: scale(0.95);
 }

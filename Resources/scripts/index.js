@@ -1,6 +1,6 @@
 
 var count = 0;
-const array = ['Web Designer', 'Web Developer', 'Software Developer', 'Software Designer', 'Game Developer', 'System Developer', 'Digital Artist'];
+const array = ['Web Designer', 'Web Developer', 'Software Developer', 'Software Designer', 'Game Developer', 'System Developer', 'Astronaut', 'Digital Artist'];
 function change() {
     var imwhat = document.getElementById('imWhat');
     imwhat.textContent = array[count];
