@@ -27,7 +27,7 @@
 }
 
 /* hover on image - zoom in */
-.container .card-photo.zoom-in:hover img{
+.container .zoom-in:hover img{
     transform: scale(1.5);
 }
 
@@ -127,6 +127,11 @@
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
+.contents .education .ed-item:hover,
 .contents .categories .category:hover{
     transform: scale(0.95);
+}
+
+.contents .education .ed-item:hover .edside img{
+    transform: scale(1.5);
 }

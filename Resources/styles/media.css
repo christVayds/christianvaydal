@@ -54,4 +54,16 @@
     .container .nav{
         display: none;
     }
+
+    /* small card width is 100% */
+    .contents .smallcard{
+        width: 100%;
+    }
+    .contents .education{
+        flex-direction: column;
+    }
+
+    .contents .education .ed-item{
+        width: 100%;
+    }
 }
