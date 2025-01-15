@@ -316,11 +316,14 @@ body, html{
 /* PAGE HEADER DESIGN */
 .contents .page-header{
     /* border: 1px solid var(---fade); */
-    margin: 100px;
+    margin-top: 100px;
+    margin-bottom: 100px;
     text-align: center;
+    width: 100%;
 }
 
 .contents .page-header .sub-header{
+    /* border: 1px solid var(---line); */
     color: var(---dawn);
     margin: 10px 30px 30px 30px;
 }
@@ -426,7 +429,7 @@ body, html{
     width: 200px;
     height: 200px;
     box-sizing: border-box;
-    margin: 10px;
+    margin: 5px;
 }
 
 .contents .smallcard .icon{
@@ -443,6 +446,11 @@ body, html{
     height: 60%;
     box-sizing: border-box;
     padding: 5px;
+}
+
+.contents .smallcard h4{
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .contents .smallcard .card-content p{
@@ -626,4 +634,44 @@ body, html{
     margin-bottom: 10px;
     transition: transform 0.5s ease;
     overflow: hidden;
+}
+
+/* education */
+.contents .education{
+    min-height: 200px;
+}
+
+.contents .education .ed-item{
+    /* border: 1px solid var(---red); */
+    border-radius: 10px;
+    width: 500px;
+    height: 200px;
+    margin: 10px;
+    overflow: hidden;
+    transition: transform 0.5s ease;
+}
+
+.contents .education .ed-item .edside.edImage{
+    width: 40%;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.contents .education .ed-item .edside.edImage img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+}
+
+.contents .education .ed-item .edside.edInfo{
+    /* border: 1px solid var(---red); */
+    width: 60%;
+    padding: 10px;
+}
+
+.contents .education .ed-item .edside.edInfo p{
+    color: var(---fade);
+    font-size: 0.9rem;
 }
