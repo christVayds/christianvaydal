@@ -50,7 +50,7 @@ body, html{
     text-decoration: none;
 }
 
-.container a:hover{
+.container a:hover:not(.nodeco){
     text-decoration: underline;
 }
 
@@ -215,38 +215,9 @@ body, html{
     box-sizing: border-box;
 }
 
-.content .social{
-    /* border: 1px solid var(---line); */
-    width: fit-content;
-    font-size: 0.8rem;
-}
-
-.content .social.item{
-    padding: 5px;
-    justify-content: left;
-    color: var(---fade);
-
-    background: linear-gradient(to right, var(---hover), var(---hover));
-    background-repeat: no-repeat;
-    background-size: 0% 100%;
-    transition: 0.4s ease;
-}
-
-/* round items border */
-.content .social.item.roundborder{
-    border-radius: 20rem;
-}
-
-.content .social.item i{
-    /* border: 1px solid var(---line); */
-    width: 30px;
-    height: 30px;
-    font-size: 20px;
-}
-
 .contents .greetings{
     /* border: 1px solid var(---red); */
-    height: 90%;
+    min-height: 95vh;
     box-sizing: border-box;
 }
 
@@ -674,4 +645,33 @@ body, html{
 .contents .education .ed-item .edside.edInfo p{
     color: var(---fade);
     font-size: 0.9rem;
+    padding-top: 10px;
+}
+
+.content .contacts{
+    background-color: var(---dark);
+    color: var(---white);
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content .contacts .contact_item{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin: 5px;
+    font-size: 1.5rem;
+    cursor: pointer;
+
+    background: linear-gradient(to right, var(---white), var(---white));
+    background-repeat: no-repeat;
+    background-size: 100% 0%;
+    transition: 0.5s ease;
+    background-position: bottom;
+
 }
