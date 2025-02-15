@@ -75,13 +75,6 @@
     color: var(---white);
 }
 
-/* items hover in social media icons*/
-.content .social.item:hover{
-    color: var(---dark);
-    transition: 0.4s ease;
-    background-size: 100% 100%;
-}
-
 /* transition changing color from bottom to top */
 
 .container .flow-color{
@@ -134,4 +127,11 @@
 
 .contents .education .ed-item:hover .edside img{
     transform: scale(1.5);
+}
+
+/* contacts hover */
+.content .contacts .contact_item:hover{
+    color: var(---dark);
+    transition: 0.4s ease;
+    background-size: 100% 100%;
 }

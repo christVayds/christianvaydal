@@ -46,10 +46,6 @@
         width: 100%;
     }
 
-    .content .social.item p{
-        display: none;
-    }
-
     /* remove desktop nav */
     .container .nav{
         display: none;
