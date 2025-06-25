@@ -87,7 +87,7 @@ body, html{
 }
 
 .nav .nav-container .user-image img{
-    border: 3px solid var(---fade);
+    /* border: 3px solid var(---fade); */
     width: 180px;
     height: 180px;
     border-radius: 50%;
@@ -336,6 +336,24 @@ body, html{
     flex-direction: column;
     justify-content: space-between;
     min-height: 150px;
+}
+
+.contents .page-header .showCertImages{
+    /* border: 1px solid var(---line); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.contents .page-header .showCertImages img{
+    width: 30%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.contents .page-header .showCertImages img:hover{
+    transform: scale(1.1);
 }
 
 .contents .categories .category .cat-content h3{
